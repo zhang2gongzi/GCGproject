@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CGproject2022Class</class>
+ <widget class="QMainWindow" name="CGproject2022Class">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CGproject2022</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuChapter1">
+    <property name="title">
+     <string>Chapter1</string>
+    </property>
+    <addaction name="actionDDALine"/>
+    <addaction name="actionMidLine"/>
+    <addaction name="actionBresenhamLine"/>
+    <addaction name="actionMidCir"/>
+    <addaction name="actionBresenhamCir"/>
+    <addaction name="actionMidEllipse"/>
+    <addaction name="actionWu"/>
+   </widget>
+   <widget class="QMenu" name="menuChapter2">
+    <property name="title">
+     <string>Chapter2</string>
+    </property>
+    <addaction name="actionScanLine"/>
+    <addaction name="actionEdgeFill"/>
+    <addaction name="actionFloodFill"/>
+   </widget>
+   <widget class="QMenu" name="menuChapter3">
+    <property name="title">
+     <string>Chapter3</string>
+    </property>
+    <addaction name="actionDraw"/>
+    <addaction name="actionTranslation"/>
+    <addaction name="actionRotate"/>
+    <addaction name="actionZoom"/>
+    <addaction name="actionCohen_Sutherland"/>
+    <addaction name="actionMidLineClipping"/>
+    <addaction name="actionBarskey"/>
+   </widget>
+   <widget class="QMenu" name="menuChapter6">
+    <property name="title">
+     <string>Chapter6</string>
+    </property>
+    <addaction name="actionSecondOrderBezier"/>
+    <addaction name="actionThirdOrderBezier"/>
+    <addaction name="actionSecondOrderBSpline"/>
+    <addaction name="actionThirdOrderBSpline"/>
+   </widget>
+   <addaction name="menuChapter1"/>
+   <addaction name="menuChapter2"/>
+   <addaction name="menuChapter3"/>
+   <addaction name="menuChapter6"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionDDALine">
+   <property name="text">
+    <string>DDALine</string>
+   </property>
+  </action>
+  <action name="actionMidLine">
+   <property name="text">
+    <string>MidLine</string>
+   </property>
+  </action>
+  <action name="actionBresenhamLine">
+   <property name="text">
+    <string>BresenhamLine</string>
+   </property>
+  </action>
+  <action name="actionMidCir">
+   <property name="text">
+    <string>MidCir</string>
+   </property>
+  </action>
+  <action name="actionBresenhamCir">
+   <property name="text">
+    <string>BresenhamCir</string>
+   </property>
+  </action>
+  <action name="actionMidEllipse">
+   <property name="text">
+    <string>MidEllipse</string>
+   </property>
+  </action>
+  <action name="actionWu">
+   <property name="text">
+    <string>Wu</string>
+   </property>
+  </action>
+  <action name="actionScanLine">
+   <property name="text">
+    <string>ScanLine</string>
+   </property>
+  </action>
+  <action name="actionEdgeFill">
+   <property name="text">
+    <string>EdgeFill</string>
+   </property>
+  </action>
+  <action name="actionFloodFill">
+   <property name="text">
+    <string>FloodFill</string>
+   </property>
+  </action>
+  <action name="actionDraw">
+   <property name="text">
+    <string>Draw</string>
+   </property>
+  </action>
+  <action name="actionTranslation">
+   <property name="text">
+    <string>Translation</string>
+   </property>
+  </action>
+  <action name="actionRotate">
+   <property name="text">
+    <string>Rotate</string>
+   </property>
+  </action>
+  <action name="actionZoom">
+   <property name="text">
+    <string>Zoom</string>
+   </property>
+  </action>
+  <action name="actionCohen_Sutherland">
+   <property name="text">
+    <string>Cohen-Sutherland</string>
+   </property>
+  </action>
+  <action name="actionMidLineClipping">
+   <property name="text">
+    <string>MidLineClipping</string>
+   </property>
+  </action>
+  <action name="actionBarskey">
+   <property name="text">
+    <string>Barskey</string>
+   </property>
+  </action>
+  <action name="actionSecondOrderBezier">
+   <property name="text">
+    <string>SecondOrderBezier</string>
+   </property>
+  </action>
+  <action name="actionThirdOrderBezier">
+   <property name="text">
+    <string>ThirdOrderBezier</string>
+   </property>
+  </action>
+  <action name="actionSecondOrderBSpline">
+   <property name="text">
+    <string>SecondOrderBSpline</string>
+   </property>
+  </action>
+  <action name="actionThirdOrderBSpline">
+   <property name="text">
+    <string>ThirdOrderBSpline</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="CGproject2022.qrc"/>
+ </resources>
+ <connections/>
+</ui>

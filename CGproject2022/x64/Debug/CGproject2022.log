@@ -1,0 +1,11 @@
+﻿   Qt/MSBuild: 3.3.0.13
+   Qt: 5.12.12
+  CGproject2022.cpp
+  Fill.cpp
+  GeneralAlgorithm.cpp
+  GMatrix.cpp
+  GraphAlgorithm.cpp
+  main.cpp
+  qrc_CGproject2022.cpp
+  moc_CGproject2022.cpp
+  CGproject2022.vcxproj -> D:\yan\GCG\CGproject2022_2\CGproject2022\x64\Debug\CGproject2022.exe
